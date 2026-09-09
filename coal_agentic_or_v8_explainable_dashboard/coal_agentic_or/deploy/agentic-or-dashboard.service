@@ -1,0 +1,16 @@
+[Unit]
+Description=Agentic OR Streamlit Dashboard
+After=network-online.target agentic-or.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=agenticor
+WorkingDirectory=/opt/coal_agentic_or
+EnvironmentFile=/opt/coal_agentic_or/.env
+ExecStart=/opt/coal_agentic_or/.venv/bin/streamlit run /opt/coal_agentic_or/dashboard.py --server.address 0.0.0.0 --server.port 8501
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

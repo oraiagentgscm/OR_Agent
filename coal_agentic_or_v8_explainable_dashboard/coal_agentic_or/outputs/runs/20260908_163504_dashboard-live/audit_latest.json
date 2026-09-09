@@ -1,0 +1,287 @@
+{
+  "weather_connection": {
+    "connected_locations": 10,
+    "total_locations": 10,
+    "all_live": true
+  },
+  "news_connection": {
+    "fetch_ok": true,
+    "source": "Google News RSS",
+    "fetched_at": "2026-09-08T16:35:20.494077+05:30",
+    "article_count": 50,
+    "error": "",
+    "details": "NewsAPI unavailable: NEWSAPI_KEY not configured"
+  },
+  "weather": [
+    {
+      "id": "S1",
+      "name": "Talcher-area source",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 3.1,
+      "rain_72h_mm": 38.9,
+      "max_precip_probability_24h": 88.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "S2",
+      "name": "Ib-Valley-area source",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 1.3,
+      "rain_72h_mm": 21.0,
+      "max_precip_probability_24h": 88.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "S3",
+      "name": "Korba-area source",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 0.7,
+      "rain_72h_mm": 8.2,
+      "max_precip_probability_24h": 63.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "S4",
+      "name": "Mand-Raigarh-area source",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 0.5,
+      "rain_72h_mm": 15.9,
+      "max_precip_probability_24h": 65.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P1",
+      "name": "Plant 1",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 2.7,
+      "rain_72h_mm": 62.9,
+      "max_precip_probability_24h": 84.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P2",
+      "name": "Plant 2",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 5.1,
+      "rain_72h_mm": 26.2,
+      "max_precip_probability_24h": 63.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P3",
+      "name": "Plant 3",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 0.7,
+      "rain_72h_mm": 3.7,
+      "max_precip_probability_24h": 71.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P4",
+      "name": "Plant 4",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 0.7,
+      "rain_72h_mm": 5.5,
+      "max_precip_probability_24h": 46.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P5",
+      "name": "Plant 5",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 1.6,
+      "rain_72h_mm": 22.9,
+      "max_precip_probability_24h": 60.0,
+      "severe_rain_flag": 0,
+      "error": ""
+    },
+    {
+      "id": "P6",
+      "name": "Plant 6",
+      "connected": true,
+      "source": "open-meteo",
+      "rain_24h_mm": 4.6,
+      "rain_72h_mm": 39.1,
+      "max_precip_probability_24h": 99.0,
+      "severe_rain_flag": 1,
+      "error": ""
+    }
+  ],
+  "news": [
+    {
+      "title": "Heavy rain in Odisha: Minister Vaishnaw orders close watch on vulnerable rail sections - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd0tkQV9hVV9MbS1uTmRfV2k1NFNNZEp3UzlqYmQtRTNpQ1ZvOFpYSjFNekFFUU40Vm16MDJzdHhEOTNmSnA5MC1lVDQ5bng0THpTZWNCQnBvX0s1UDJRY01zbHQzVlBVbUhGNXFOc0NUYUtvNXdqdHhpbExtbnp1WWc5Rl9ES09RMThhYzhScW9DQ2lPdExKSV9MWjJ5aXZjMzV1Wm9QcENqQU15amUwZjgxVDdzODZTb05mbGRqMGVkOW9wWUkxSzVKZjNHYXVRV1R5Z3d1dTlIMXNhT3NVWVZTQlBuWU5xbW1mZ2g2d3NuZ9IB9wFBVV95cUxOUkpHNl85VXVkYV9oNlJxSEtJdXNpNGlnZGV6YTc2OFJXRXp2WTZlaUFVOWdnQW5QWXdsM0xFLUdTZWtHNzhfLVRoSEM2cG1LY1BnRHBaM2ZoLUtYRk1UakM2WWFzcEZoN2tJWXFjQkpTNDNOZ3duanczNnpOOWpoUU5vRWU0N1R6Y0tUbnU5eW1YVE93aFZydU1ua3h6TzdUc3FLZElzMzNfUC1JR0xNTTlJSWdqUm52MEZ1S043b2trYmo0eHB2TEV4dGVfakVNSU5uXzZJMVBSbFBULVo3enZlTXQwazFJZ0loZXhrZENTTjR2STg4?oc=5",
+      "seendate": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "domain": "The Times of India",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Odisha: Talcher-Puri MEMU train derails near Puri station, no injuries reported - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObmxCaGd1cXNKVkJmZEp3eVdxY0lNT09UbTBCbWo4SDV3dElLclpjNVlrWW84RHEwYVgwLW5QLTRkdGtTV0dEb25MTW5HdUdoM2VSTzN6LWoxd0pxbGR4YmgwZE9oMEcwOGZ6TEdELTBkd0dYR3dSVktnZDQ4SHAxQWk3TmdRUDBQdG9rMS0xeTRWbndObG93MlhDVGt6VDZXU1k2VTlHVzZvN3g5eVBwZS02Uzh1cWxCS0RDMVpOUElmWmdnZnpHeVVOS2ZPMXpBNHBqcGczRXE?oc=5",
+      "seendate": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "domain": "ANI News",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Railway Minister Ashwini Vaishnaw Orders Enhanced Monitoring Of Vulnerable Odisha Rail Sections Amid Heavy Rain - swarajyamag.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRVZwRzdiQmhIMG1neTNueGxyUzRLQVA5c0JqQXRBck1nMGxlM0d6emFIOURTVTMtU2dmcWdTZ2Zwa1lSTGpGSklhQUx6QUk2SXhpenozZW43TkpObENuY0pJRjJVUGR1WEszZTZUaE5FanVOaDNDelRUeXFpVTk2a0p5X2JXcUw1cFRqcXRiX1lFQjV0cDc0VkNaT2hxMnd6ckhTRFJUdklJSVRacE5Wa0QtOUMyWFlKWVBNWFdhS0t0YnZYX0ZHOWVYX1MxeHVOb3hKZFFvSUVsV3haTk1J0gHvAUFVX3lxTE1rZVF2TGNhNWV6b2JiXzV1TFU0TEhtZFdBdjlvT1BVVHZ1MGJzalYyZFA5dTdYZTNRYloyNzctS0FPTVRnLXRhRHFYM3l0UjI1bjAzZkxjY2VKOW5KTXBUUmdHYWdKYWNrTTlXN2pQbUVuRGJiTmhROEhVNEJEV0JiTHk4Q1dEOXVsdHZsaHNtN1NPZVJKeEE0MVNPRjlwRGx3NFVEamw2ZU45dkhDVmh3LUpPeEF6M1ZaRnM3d2FYVk5VZ2ZVVGxPS0w1VEZlMG9aRmxxUlp0em8xakhoUkgwNjNhWndLbWJUbFo5ZHpr?oc=5",
+      "seendate": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "domain": "swarajyamag.com",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Heavy Rains Trigger Inundation & Rail Damage - OdishaPlus",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEZVSTZDeURpZWp0YkticlAwcS1kUVRNWWVUelBZYWtTdUNQakN0d3Z2bHNIb2JYVlFzOW1CNGpFcnRaNjByaGZCVjZPQ21tY3hKRWNmZHN4TFhYNGRHU2tWcjZOZG9ydC1mTE9aMmVCVXR6cEd3Q092dkpDdndZSmIwdWk?oc=5",
+      "seendate": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "domain": "OdishaPlus",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Four districts in flood grip; over one lakh affected in Odisha - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONW9wWmN1V29hZDB5UWZvZEw0X2NrVjV0dElPaFVPa3A2OExtS3gyNXhuOEZtcHpaOWpsQVRvNmtDMF95dzQwYjEtZDVjeng3V0s1Qk1yVTlod092Z1pDZTloTU9PRXhGZHN2MGNJYTd1ek9JUlhQeGNoTkRBZnQtUzZfbm42c3A3T0NzbXVHdXJtVHVyaTRwZ21GZGx2c0xBSDEzV1ByaXB1UXdhOVk3TXZsOG9JS2lIWFFFd9IBygFBVV95cUxNODcwUVpfUWpJTWNQalF0WmpsT1pQZFM3ZzEtY0JyY0dXdzFpOGJRbVROVk5lOXZNSFJQQ0piQTRuYTkwa1ZURk11c2pnMGVLWGc3UzZqSlBGMmlwTXRmeW9EUVZYV3MzRXpDZVVZOEQ1UFcyVkhaSXhQdmphUy1zbHBTSFdzNFByTTBhVmoxYzB6WG5UN3M5N3hsWkJPRHY0d29HN0R4Z2dEM3FmOVdRMzQteXhIb1hqLWpyQ2xnNUVmeXlVTEdGSVdn?oc=5",
+      "seendate": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "domain": "The New Indian Express",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Kamakhya Superfast Express Derails Near Nergundi In Odisha | Akashvani News - newsonair.gov.in",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOXzdSYzV2YmowTHZqQ01DYVB6Nm1IMTl0N1ByNlR6RXUyNXB0VURwUDhaWlEwcWpYT1NZdjVVbjlPMU5oWGlEQnlmM18xQkcwaF9KcEdQUHQyeE1UTXhuam9xSXk0bnlRMWRSbkowdjFxUFhyMkdnaHdsRHRIaGN6ZVczbWNtMHRCOHowVg?oc=5",
+      "seendate": "Wed, 27 May 2026 11:38:18 GMT",
+      "domain": "newsonair.gov.in",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "45 Indian coal power plants have critical low fuel, government data shows - ET EnergyWorld",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZzdFeEJBSXlrWkl1d0lmS0NPN1ZnNVVHa29kUmlVc1dXUTBOMVc2a09rTng0bTh3Z18wUWdrUjIwUnJvd05xbFhxcjVZN2FZbW55b3JEZ1hPRzJtMktqVTBqVjdxdzlFQWg0WGdyX2Z2dmN5UHhZaWdXVWw0RlNKYng4QTBHSV9ISmtjUHI4NElDT2lReDR3Qy0tTmNjNG9YSnZ0dW1aSUxFaHExUEFzOXoyU1Fod2lpTXlSZzZhNXkxWmYwTUg3eFVsTTYtQ3Y1M2fSAdcBQVVfeXFMTko4VHJmM3JRS1BDZXBMakxRV1NqMTgyNnNxVUpZcHZyRnY5ejJZYVg1VXdVS21kMmR3dTI4bi1iTmVuS1J4bW5UMmUxdjNLR0dKX1lEdFZ0QjVQUkNGSUVjNnhYSEJSTXAzb2NjVUFNWklSZXFBcHE5SmR6R3VXaWRjaVZWakwyVnlaMkp1OFZWbnBkZlZCU3Q0UEtEU0hmTndSU3FjRTVKUWg2c0xmMjV5WnZlaHBhZm50UFVNZ2psU3JZN0MySGZEdkRIb3hqdXpFb3c4aFk?oc=5",
+      "seendate": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "domain": "ET EnergyWorld",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Trains Come Face To Face In Odisha's Bhubaneswar, Probe Ordered - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPelh5NmswZUQwblh5SVJsRi16eUc0MUt2eEdUeGRDd1g0NGJQTVFNV3lQTWo1d0tTTGV6eXkyU1Jkelo3X04yV3B3UlM5LUYwUHBCaWpGSjVyN280by1BQ0g4bGt6QlJLYTNsMEtfMXZZRTlwdjNGcDhSWHVubU5EdnVZWU8yNFhQUVBKU016OVc3dXpOM3FpWEV4Y2NORTZEbTFQcVdwY1dKTUZ2a2ZRUtIBtgFBVV95cUxNT3ZIT3JOMEpreFBvdk9rekw3bm1zdFBmSlpzUXBzdnpkcExGODQxWTMya3BIeE9vV00yRU9QWWhxLXBpTWd3UDBSRG5ZS1prTjJmdDczX0I2ak9lTW9FQXBWTVJ1dnVBb0x4NV95VGZzcmhzeE9FWTdZSmVCa3BTbUx6U3VxMkJkQTJMMjNNUzFJaFA5UnJ4anZ3eFBrMUdBT0hUTmZFQ3FKTGVVRWpNbmEzYmtfUQ?oc=5",
+      "seendate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "domain": "ETV Bharat",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "BJD to raise MPLADS hurdles, coal royalty, textbook errors during Parliament Monsoon Session - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ0Z0OVRDY3NrMVR0bmlCbVZCTnh3NlF4Tk5yV0k5SVVLUjNabE10ekZVVHVpQUdYUmFid3h2UXFZWTRwU0owdTlnQnVYR21lLWVWRDJPc0lYUmZFQmRxdGdwVk5OWjBieWZMWl8wTGJmUkZveVVzU25HMTFKUElaNEh6VFdCbmtqcy1yRjFVdzZ2SkZjYTJNOXF6blMyQXRQSzFrMXg3TVN6V2kwOHlHSmVIYTR0S01fSUlDeTVRdENJOTTSAcgBQVVfeXFMTmZqem4xeFYtRTV1em9PQVg0X1ZBd3NWWnIwczhmdnltS2l0UTNod2ZNV1JWNkFyVXdDODlYdXl0Qnk0ZUUxbzBVVHBpdkE2dUVQODFJd2tUb051aTNWaThlYWg5Zlo0bTZQTW1raW54d1Rpd0lYOTRwM2kwTDMzMllGaTF4d0RQRDJnLWdVWkNYUFFzMk9YTVNxLXRRT0VDT0tCRGRGMFZWY1BhNjlaRHJPekhGZ3p0WGNBWlVEY0dxMDlMR1JNNEI?oc=5",
+      "seendate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "domain": "ThePrint",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Rainwater floods railway tunnel in Odisha, four workers rescued - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2oybjY3VTRtU2ZXNlEtY0gwRUdfYURXc0tFWUFaWGtqTjVrQ1FPWGRFbEg4M3k2VkNydVhscHhxU1AtY1lKOFl5aXYtTVgzS1FDY3BrWFVOMWY3bTBTYWxXNXFJT0hKUGo2cTllMFczbHpZdFY5WGhqZUEwSEF2bnlnZVFRS3R2cGx3SXE2RERrNDdpSDA5OXp6ZGQtQWdHa2pQSnUybHhweTZmcWFWVWprTjJqQ1lsbTlhcGtn0gHLAUFVX3lxTFB4cXJOTnpsLUsyY3J5MU9rRzF3RTNXWC14dUVHZEtpSzdjNW5lblNya2V2b0NqTmVLQ2hXQ0FOaTJ3Szd4b1c2N05UNHpIQk5lVm1NUzRRdFdCTUtyS1Q5Q3drOUVzdS1PZGNXM0VJdzNySkNQcS01b296OHA2V1ZKbGtSb2pJd0pyMHZ1cU5xYVZ5YkhITmQyVUEwWDd0bExOSXFycUVRTGZ2YVlHVUxISjVGdkx1T2JuSVJWeGVQeGE5R1c0X1hEUFZj?oc=5",
+      "seendate": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "domain": "The New Indian Express",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Major Rail Disruption in June: 77 Trains Cancelled Across Multiple States - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFk0OE1EU2pKdlNNaUJPYlNJSUozbVhnaTdjUmpMbGpYNUpnYXNsVFlKY19aVXNEczBXb3hIUkd2aFVrZjdWS2xkaHJpd1p3cWY0UWQtZVVJUHVyZkhXQTBEenJBb3hsVDJBUUZmeFcta2pGMnRLV2xRT3Zwb1c2NFFpQUx0LWZYaFRJTFFZRUZVWTBxLTJjZjVJWGpyYUE1Zm9rRW50NmNvc1VfeG5BR2VQc23SAbwBQVVfeXFMTlZnVlJNM25DWlNqdWNlaWpsaF9DZ3FvRzJNZE5iS21WRDE1Yld0ZFVxSW1MR01pdkZ5WkwzcE9WM2RWd2xYTWRYd3AzdUxTWjd3NFBWYUVHVFl6dzhvWHFBd2owN0hEVkJPSUtXZ21NWUNlUG9mX2NybE1aTUtGS1lSRTZHaE1VWXZMaFF0N2JFVXhTUDVET1c2OVZCOXF2cmdndEoyNEZKV2ViUVlSM3hDckZFdmxfNzRTaUQ?oc=5",
+      "seendate": "Wed, 27 May 2026 07:00:00 GMT",
+      "domain": "NDTV Profit",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Talcher-Puri MEMU train derails 500m from Odisha's Puri station - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU196ekw1b0VKRzVKTFlzWXFqYmlqZkdkdUdVajU3UnFtRWUtb05qZE9jamc2ZFBtTDFVZDc1eWV4WXJ2Tk1wUGZYeXJYaU85LWx6ZG9waDUwdzFwcEY1NURMa0RWUFVVam9qbW55eWFlejE1Vk4xdV91bHNfUG8ybmxza0VYNm81a0VvbmRjTUtlS0lJd2VXUDJONWRNQWl0Vy1WRXRLTVl4WG5PcnB5OG5OVnh3cU96aHRwOVlfZzJrdFhMZmktVjNMU2dxRklOOXZxTFVyNW_SAd4BQVVfeXFMTU4yWXZtLXRSM09rMjRiQUttZnpxVXltcERCS1hDOWJIckl2VW81VVNiTC1tY2R4ZkdxOUNZelJnN0doc3ZrZnZ4SmhMLVdsWDk3dDQ5aldnVkNrekFWS3ZPUVktcGI2V0lCUXdrNzBFX2lSMzVVRVpIVG93aGJ3NkdaS245VUUwNVNDYnBvV2Z6RDBsQW1pMzZZNnhwU21uU2JzWXloMmNicG9QYzdXQlRpc2c4ZmFSUVNQVnVyRDBHekdJVXU2WDlMTlZ3dFRCbE1oWTZHcGNZXzhNX2x3?oc=5",
+      "seendate": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "domain": "The Times of India",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Russia Train Derailment in Ulyanovsk Injures 22 - Pragativadi",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MQVlpOFJ2YXMzTEtSR2lCR3pOc3EwR2RiU2JseEhnN0ZHTnltZ2JfSWhMMVRZR25Wd285SkJzSUhXdVc3emJNUl9WamJQekJ6LW5XRHI4T29SellPYTl0aHJoTFY0Tl9QSGNPZnZVUTBjcllVQWxOOVNWd0k?oc=5",
+      "seendate": "Fri, 03 Apr 2026 10:02:19 GMT",
+      "domain": "Pragativadi",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Minister Suresh Pujari asks districts to be alert as heavy rain lashes Odisha - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWTNiZGFfSTF0UTU2a2FTRGhZeWV5N2x5NTBWTWg5QzFiSUVRdEhxU2c4Y25XTWw3VnNJYjRKZGdFUnVrV0lBT2pPSzZuZWthemR5M1VQRlVBa1dHTUhvdDhkQXNYVG1OZlZJckhhTmtadkxKR21WSWh3OXRwd1RGeUNuaGlvb0M2azdKbi1tYnZoc3dkT2hSTkw5Q2dfQXVCWlFiTjRZcjVPaGJmZ21YdTA1VUR4YnZQUVBDRldaajJrTWowaUlCeUMtd0c2Q2dJVUxwckpzMEzSAeYBQVVfeXFMUGM5OWlWTFZKekRsN1FrMHBQX0pTSERNU2NtQkVkbzU2Ri1XOVplYmZ3TDJzNXFrSzFQSi1ualM5dVNnelItRkVxZGhoSmR0VWZ2ejJyZ2QyZUw2aGJ3S09iYnladUN0dDVTeW9odWkzYU95dUdqR1pmbWRONWZTUGxxaWFwSllpUzB4bWliXzZHQnNULVVQMTBLMnRuX1JFeUVUZ1RHVG1CR1B0Y3pMUUtmdkpSVWxBNF8tWkQ5VERsdXpOWEFqM1MtOE41dWhNXzI2LVFZeXdrbnpoaFhEaXluVzJsWmc?oc=5",
+      "seendate": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "domain": "The New Indian Express",
+      "provider": "Google News RSS"
+    },
+    {
+      "title": "Rainwater, mud flood under-construction rly tunnel in Odisha\u2019s Boudh; 4 workers rescued - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdkoyNFg3cEx2X3hRS2lSWmFsLW02MlM1U0U0ZkNWQV9XRkhWUVJzMnBVOTFuYWZEVFd0V09aSnhaZ0xlQVk3S1kzS3N5bUlFclA1R3NQc3FsSVVDWlh2R0dFSFdZVk1vSUUweWFUTmhLWWFwaFFtNEZLeDdCajI0QUhyUFhiYVdEekUyTjhsVEVkLU5MWHZpMlcyZ0RkdjdxNkJQelg3OGVTRFhVOFBfeUxvaExzajAxMDZ5Vk1kMEZQSEF5cVI0dl8teUloZG9HajNGbkFqcWRvOVhhd0w2eTNsRmI0Y3hSUnJiR0VLQkVxNWlkQlHSAfsBQVVfeXFMT1BQVVo4Q0FubWVYVncyVFdudmw3OU9rbU91SGZ4d3FYQm5veFo4UXA5REhHMHpqTEpReldWYnd5T0Jhd0ZiODdVN2xUTEZtTWV3U1R4NndTUk42enJXZHNkaXJqU2FSTURBN1VEMGM3MHRMc2p1RTcwZmMyOTlmbUs1TVJaVXdTV2IzbXlTUkNtbFVmV0p5QmFycklKS1Bva1BWV2J0aUZtX2c3VTdzeWFkeVRoVVpWOWx3SXNIaThFMWtpVE1hcGxFakZINTJCc3oyU2hUWEd0X2ZQaU40UUtsdm4zenQxV2dONVB5RENUZWhYakZldENBdUk?oc=5",
+      "seendate": "Sun, 05 Jul 2026 07:00:00 GMT",
+      "domain": "The Times of India",
+      "provider": "Google News RSS"
+    }
+  ],
+  "interpretation": {
+    "news_risk": 1.0,
+    "corridor_capacity_factor": 0.6,
+    "source_capacity_factors": {
+      "S1": 0.79,
+      "S2": 0.79,
+      "S3": 0.79,
+      "S4": 0.79
+    },
+    "max_route_delay_hours": 56.3,
+    "worst_routes": [
+      {
+        "source": "S4",
+        "plant": "P1",
+        "day": 0,
+        "delay_hours": 56.3,
+        "base_lead_days": 3.0,
+        "forecast_confidence": "high"
+      },
+      {
+        "source": "S3",
+        "plant": "P1",
+        "day": 0,
+        "delay_hours": 56.3,
+        "base_lead_days": 3.0,
+        "forecast_confidence": "high"
+      },
+      {
+        "source": "S1",
+        "plant": "P6",
+        "day": 0,
+        "delay_hours": 55.9,
+        "base_lead_days": 2.0,
+        "forecast_confidence": "high"
+      },
+      {
+        "source": "S3",
+        "plant": "P6",
+        "day": 0,
+        "delay_hours": 55.9,
+        "base_lead_days": 2.0,
+        "forecast_confidence": "high"
+      },
+      {
+        "source": "S2",
+        "plant": "P6",
+        "day": 0,
+        "delay_hours": 55.9,
+        "base_lead_days": 2.0,
+        "forecast_confidence": "high"
+      }
+    ]
+  }
+}

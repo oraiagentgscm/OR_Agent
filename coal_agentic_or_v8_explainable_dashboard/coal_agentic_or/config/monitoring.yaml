@@ -1,0 +1,30 @@
+# Alert thresholds are deliberately configurable.
+weather:
+  rain_24h_mm: 50.0
+  rain_72h_mm: 120.0
+  precip_probability_24h_pct: 85.0
+  require_severe_rain_flag: true
+
+risk:
+  news_risk: 0.60
+  max_route_delay_hours: 12.0
+  min_corridor_capacity_factor: 0.85
+
+alerts:
+  # Send exactly one status email per hourly check.
+  send_hourly_no_disruption_email: true
+  send_alert_every_hour_while_active: true
+
+  # These are used only if send_alert_every_hour_while_active=false.
+  cooldown_hours: 6
+  resend_if_signature_changes: true
+
+  alert_on_weather_api_failure: true
+  alert_on_news_api_failure: true
+  attach_csv_reports: true
+
+schedule:
+  timezone: Asia/Kolkata
+  daily_report_hour: 8
+  daily_report_minute: 0
+  hourly_monitor_minute: 5

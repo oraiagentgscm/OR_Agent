@@ -1,0 +1,17 @@
+
+[Unit]
+Description=Agentic OR 24x7 Scheduler
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=agenticor
+WorkingDirectory=/opt/coal_agentic_or
+EnvironmentFile=/opt/coal_agentic_or/.env
+ExecStart=/opt/coal_agentic_or/.venv/bin/python /opt/coal_agentic_or/scheduler.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+{
+  "run_time": "2026-09-08T16:23:56.220915+05:30",
+  "run_type": "dashboard-scenario-live",
+  "status": "WARNING: inventory target cannot be fully maintained",
+  "web_enabled": true,
+  "weather_live_locations": 10,
+  "weather_total_locations": 10,
+  "news_fetch_ok": true,
+  "news_article_count": 50,
+  "news_fetch_error": "",
+  "news_source": "Google News RSS",
+  "news_details": "NewsAPI unavailable: NEWSAPI_KEY not configured",
+  "news_risk": 1.0,
+  "corridor_factor_day0": 0.6,
+  "source_capacity_factors_day0": {
+    "S1": 0.79,
+    "S2": 0.79,
+    "S3": 0.79,
+    "S4": 0.79
+  },
+  "max_route_delay_hours_day0": 56.3,
+  "total_shortfall_tonnes": 0.0,
+  "total_buffer_gap_tonnes": 3792816.30275521,
+  "horizon_note": "Today/7/30/60-day allocations are cumulative slices of one 60-day optimization that is solved against the full 60-day demand schedule. Current-event risk tapers after day 7 and is removed after day 14.",
+  "full_horizon_demand_enforced": true
+}

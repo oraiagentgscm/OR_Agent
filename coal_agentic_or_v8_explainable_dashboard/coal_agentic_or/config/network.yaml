@@ -1,0 +1,103 @@
+# ILLUSTRATIVE SAMPLE DATA ONLY — replace with validated project values.
+planning_horizon_days: 60
+enforce_full_horizon_demand: true
+service_level_z: 1.645
+wagon_tonnes_equivalent: 4000
+shortfall_penalty_per_tonne: 100000
+buffer_violation_penalty_per_tonne: 1000
+holding_cost_per_tonne_day: 4
+delay_cost_per_tonne_hour: 0.10
+base_corridor_capacity_tpd: 52000
+
+sources:
+  - id: S1
+    name: Talcher-area source
+    lat: 20.95
+    lon: 85.22
+    base_capacity_tpd: 16000
+  - id: S2
+    name: Ib-Valley-area source
+    lat: 21.82
+    lon: 83.92
+    base_capacity_tpd: 13000
+  - id: S3
+    name: Korba-area source
+    lat: 22.36
+    lon: 82.75
+    base_capacity_tpd: 15000
+  - id: S4
+    name: Mand-Raigarh-area source
+    lat: 21.90
+    lon: 83.40
+    base_capacity_tpd: 12000
+
+plants:
+  - id: P1
+    name: Plant 1
+    lat: 21.10
+    lon: 85.10
+    base_demand_tpd: 7200
+    current_inventory_tonnes: 145000
+    policy_days_cover: 17
+  - id: P2
+    name: Plant 2
+    lat: 21.40
+    lon: 83.85
+    base_demand_tpd: 6500
+    current_inventory_tonnes: 145000
+    policy_days_cover: 26
+  - id: P3
+    name: Plant 3
+    lat: 21.20
+    lon: 81.40
+    base_demand_tpd: 6800
+    current_inventory_tonnes: 155000
+    policy_days_cover: 26
+  - id: P4
+    name: Plant 4
+    lat: 22.10
+    lon: 82.10
+    base_demand_tpd: 7600
+    current_inventory_tonnes: 175000
+    policy_days_cover: 26
+  - id: P5
+    name: Plant 5
+    lat: 22.40
+    lon: 83.40
+    base_demand_tpd: 5900
+    current_inventory_tonnes: 130000
+    policy_days_cover: 26
+  - id: P6
+    name: Plant 6
+    lat: 22.25
+    lon: 84.85
+    base_demand_tpd: 6200
+    current_inventory_tonnes: 138000
+    policy_days_cover: 26
+
+# Per-tonne route cost and normal transit days.
+routes:
+  - {source: S1, plant: P1, cost: 120, base_lead_days: 1}
+  - {source: S1, plant: P2, cost: 220, base_lead_days: 2}
+  - {source: S1, plant: P3, cost: 260, base_lead_days: 2}
+  - {source: S1, plant: P4, cost: 300, base_lead_days: 2}
+  - {source: S1, plant: P5, cost: 320, base_lead_days: 3}
+  - {source: S1, plant: P6, cost: 250, base_lead_days: 2}
+  - {source: S2, plant: P1, cost: 230, base_lead_days: 2}
+  - {source: S2, plant: P2, cost: 110, base_lead_days: 1}
+  - {source: S2, plant: P3, cost: 170, base_lead_days: 2}
+  - {source: S2, plant: P4, cost: 200, base_lead_days: 2}
+  - {source: S2, plant: P5, cost: 170, base_lead_days: 2}
+  - {source: S2, plant: P6, cost: 190, base_lead_days: 2}
+  - {source: S3, plant: P1, cost: 310, base_lead_days: 3}
+  - {source: S3, plant: P2, cost: 230, base_lead_days: 2}
+  - {source: S3, plant: P3, cost: 120, base_lead_days: 1}
+  - {source: S3, plant: P4, cost: 100, base_lead_days: 1}
+  - {source: S3, plant: P5, cost: 180, base_lead_days: 2}
+  - {source: S3, plant: P6, cost: 190, base_lead_days: 2}
+  - {source: S4, plant: P1, cost: 280, base_lead_days: 3}
+  - {source: S4, plant: P2, cost: 150, base_lead_days: 2}
+  - {source: S4, plant: P3, cost: 160, base_lead_days: 2}
+  - {source: S4, plant: P4, cost: 170, base_lead_days: 2}
+  - {source: S4, plant: P5, cost: 105, base_lead_days: 1}
+  - {source: S4, plant: P6, cost: 140, base_lead_days: 2}
